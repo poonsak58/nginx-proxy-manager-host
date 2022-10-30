@@ -35,7 +35,7 @@ sudo ufw enable
 
 ## Allowing Connections
 ```bash
-sudo ufw allow 21
+sudo ufw allow 22
 sudo ufw allow 80
 sudo ufw allow 443
 ```
@@ -45,11 +45,10 @@ sudo ufw allow 443
 sudo ufw delete allow 443
 ```
 
-## Disabling UFW
+## Disabling or Resetting UFW (optional)
 ```bash
 sudo ufw disable
 ```
-or resetting (optional) by command
 ```bash
 sudo ufw reset
 ```

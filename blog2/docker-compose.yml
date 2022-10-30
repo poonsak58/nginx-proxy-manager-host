@@ -6,4 +6,3 @@ services:
       - '127.0.0.1:9999:80'
     volumes:
       - './:/usr/share/nginx/html'
-    # networks: nginx-proxy_default
