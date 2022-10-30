@@ -1,3 +1,10 @@
+# Directory unrelated
+```
+blog1/
+blog2/
+```
+you can delete. it for demo deploy nginx for test.
+
 # Running
 ```bash
 docker-compose up -d
