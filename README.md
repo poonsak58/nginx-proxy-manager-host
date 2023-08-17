@@ -63,6 +63,6 @@ sudo ufw reset
 
 ## Access port 81 (Admin UI) by ssh tunnelling
 ```bash
-ssh -L 81:127.0.0.1:81 <user>@<ip>
+ssh -L 4444:127.0.0.1:81 <user>@<ip>
 ```
-now open http://127.0.0.1:81 you can access it from your browser.
+now open http://127.0.0.1:4444 you can access it from your browser.
