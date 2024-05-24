@@ -66,3 +66,12 @@ sudo ufw reset
 ssh -L 4444:127.0.0.1:81 <user>@<ip>
 ```
 now open http://127.0.0.1:4444 you can access it from your browser.
+
+
+## Setup Proxy Host ##
+ex. subdomain `testing.abc.com` to service runiing port `8888`
+![alt text](docs/image.png)
+
+### Custom Nginx configuration
+ex. `client_max_body_size: 1M` is default Nginx.
+![alt text](docs/image2.png)
